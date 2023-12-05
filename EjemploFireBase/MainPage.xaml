@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjemploFireBase.MainPage">
+
+    <StackLayout>
+        <Entry Placeholder="Ingrese un Nombre" 
+            Margin="10,40,10,10" 
+            x:Name="txtDesc"/>
+        <Entry x:Name="dic" Placeholder="Direccion"  />
+        <Entry x:Name="Nota" Placeholder="Nota" />
+
+        <Button Text="Guardar" 
+        BackgroundColor="Aqua"
+        x:Name="B_Ver" 
+        Clicked="Guardar_Clicked"/>
+
+
+    </StackLayout>
+</ContentPage>
